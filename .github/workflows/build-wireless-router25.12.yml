@@ -560,7 +560,7 @@ jobs:
           ipq807x_models=$(cat model/ipq807x.txt | tr '\n' '|')
           ipq807x_models=${ipq807x_models%|}
           if [[ "$profile" =~ ^($ipq807x_models)$ ]]; then
-              case_tag="qualcommax-ipq807x-openwrt-25.12.0-rc2"
+              case_tag="qualcommax-ipq807x-openwrt-25.12"
               case_platform="qualcommax/ipq807x"
           fi
 
